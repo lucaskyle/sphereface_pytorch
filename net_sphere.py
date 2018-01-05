@@ -174,6 +174,7 @@ class sphere20a(nn.Module):
 
         x = self.fc6(x)
         return x
+
 class sphere4(nn.Module):
     def __init__(self,classnum=10574,feature=False):
         super(sphere4,self).__init__()
